@@ -11,11 +11,11 @@ const songs = [
     { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
-    { title: "Same Ol' Mistakes", artist: "Rihanna", genre: "Alternative" },
+    { title: "Same Ol' Mistakes", artist: "Rihanna", genre: "Pop" },
     { title: "Agora Hills", artist: "Doja Cat", genre: "Pop" },
-    { title: "Need To Know", artist: "Doja Cat", genre: "Pop" },
+    { title: "Waves", artist: "Ye", genre: "Hip-Hop" },
     { title: "Paint The Town Red", artist: "Doja Cat", genre: "Hip-Hop" },
-    { title: "Pjanoo", artist: "Eric Prydz", genre: "Dance"}
+    { title: "Shutcho", artist: "Doja Cat", genre: "Hip-Hop"}
     // Feel free to add even more songs
 ];
 
@@ -24,6 +24,7 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+    "Drax" : "R&B"
     // Add preferences for Drax, Rocket, and Groot
 };
 
