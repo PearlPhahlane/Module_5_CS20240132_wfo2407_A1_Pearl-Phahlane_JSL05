@@ -46,6 +46,8 @@ function generatePlaylist(guardians, songs) {
 }
 
 function displayPlaylist () {
+    const playListsContainer = document.getElementById('playlists');
+    const guardianPlaylists = generatePlaylist(guardians, songs)
     
 }
 // Call generatePlaylist and display the playlists for each Guardian
