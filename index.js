@@ -47,7 +47,14 @@ function generatePlaylist(guardians, songs) {
 
 function displayPlaylist () {
     const playListsContainer = document.getElementById('playlists');
-    const guardianPlaylists = generatePlaylist(guardians, songs)
+    const guardianPlaylists = generatePlaylist(guardians, songs);
+
+    guardianPlaylists.forEach(({ guardian, playlist }) => {
+        const playlistElement = document.createElement('div');
+        playlistElement.className = 'playlist';
+
+        
+    })
     
 }
 // Call generatePlaylist and display the playlists for each Guardian
