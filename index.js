@@ -53,7 +53,10 @@ function displayPlaylist () {
         const playlistElement = document.createElement('div');
         playlistElement.className = 'playlist';
 
-        
+        const playListTitle = document.createElement('h2');
+        playListTitle.textContent = `${guardian}'s Playlist`;
+        playlistElement.appendChild(playListTitle);
+
     })
     
 }
