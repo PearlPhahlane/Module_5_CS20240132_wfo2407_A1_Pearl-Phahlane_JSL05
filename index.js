@@ -57,6 +57,12 @@ function displayPlaylist () {
         playListTitle.textContent = `${guardian}'s Playlist`;
         playlistElement.appendChild(playListTitle);
 
+        const songList = document.createElement('ul');
+        playlistforEach(song => {
+            const listItem = document.createElement('li');
+            
+        })
+
     })
     
 }
