@@ -44,6 +44,10 @@ function generatePlaylist(guardians, songs) {
 
     });
 }
+
+function displayPlaylist () {
+    
+}
 // Call generatePlaylist and display the playlists for each Guardian
 generatePlaylist(guardians, songs);
 
