@@ -53,12 +53,12 @@ function displayPlaylist () {
         const playlistElement = document.createElement('div');
         playlistElement.className = 'playlist';
 
-        const playListTitle = document.createElement('h2');
-        playListTitle.textContent = `${guardian}'s Playlist`;
-        playlistElement.appendChild(playListTitle);
+        const playlistTitle = document.createElement('h2');
+        playlistTitle.textContent = `${guardian}'s Playlist`;
+        playlistElement.appendChild(playlistTitle);
 
         const songList = document.createElement('ul');
-        playlistforEach(song => {
+        playlist.forEach(song => {
             const listItem = document.createElement('li');
             const songTitle = document.createElement('span');
             songTitle.className = 'song-title';
@@ -67,12 +67,14 @@ function displayPlaylist () {
             listItem.appendChild(document.createTextNode(` by ${song.artist}`));
             songList.appendChild(listItem);
         });
-        
+
+        playlistElement.appendChild(songList);
+        playListsContainer.appendChild(playlistElement);
 
     })
     
 }
-// Call generatePlaylist and display the playlists for each Guardian
-generatePlaylist(guardians, songs);
+
+window.onload = displayPlaylist;
 
 
