@@ -46,7 +46,7 @@ function generatePlaylist(guardians, songs) {
 }
 
 function displayPlaylist () {
-    const playListsContainer = document.getElementById('playlists');
+    const playlistsContainer = document.getElementById('playlists');
     const guardianPlaylists = generatePlaylist(guardians, songs);
 
     guardianPlaylists.forEach(({ guardian, playlist }) => {
@@ -69,7 +69,7 @@ function displayPlaylist () {
         });
 
         playlistElement.appendChild(songList);
-        playListsContainer.appendChild(playlistElement);
+        playlistsContainer.appendChild(playlistElement);
 
     })
     
