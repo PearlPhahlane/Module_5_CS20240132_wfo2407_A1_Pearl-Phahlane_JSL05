@@ -60,8 +60,14 @@ function displayPlaylist () {
         const songList = document.createElement('ul');
         playlistforEach(song => {
             const listItem = document.createElement('li');
-            
-        })
+            const songTitle = document.createElement('span');
+            songTitle.className = 'song-title';
+            songTitle.textContent = song.title;
+            listItem.appendChild(songTitle);
+            listItem.appendChild(document.createTextNode(` by ${song.artist}`));
+            songList.appendChild(listItem);
+        });
+        
 
     })
     
