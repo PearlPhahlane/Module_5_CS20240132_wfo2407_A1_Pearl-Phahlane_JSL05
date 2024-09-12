@@ -15,7 +15,7 @@ const songs = [
     { title: "Agora Hills", artist: "Doja Cat", genre: "Pop" },
     { title: "Waves", artist: "Ye", genre: "Hip-Hop" },
     { title: "Paint The Town Red", artist: "Doja Cat", genre: "Hip-Hop" },
-    { title: "Shutcho", artist: "Doja Cat", genre: "Hip-Hop"}
+    { title: "Shutcho", artist: "Doja Cat", genre: "Hip-Hop"},
     // Feel free to add even more songs
 ];
 
